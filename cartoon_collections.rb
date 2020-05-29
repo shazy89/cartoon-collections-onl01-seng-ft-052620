@@ -17,7 +17,7 @@ end
 def find_the_cheese(array)
   is_nil = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.each {|x| x.include?("ch") }
+  if array.each {|x| x.include?(x) }
   return is_nil.x
 end
 end
