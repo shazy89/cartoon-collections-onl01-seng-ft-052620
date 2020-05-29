@@ -16,8 +16,6 @@ end
 
 def find_the_cheese(array)
   is_nil = nil
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  if array.each {|x| x.include?(x) }
-  return is_nil.x
-end
+f_cheese =  array.select {|name| name.include?(x)}
+condition ? f_cheese : is_nil
 end
