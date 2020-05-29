@@ -3,8 +3,10 @@ def roll_call_dwarves(name)
 end
 
 
+
+#erdo = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet(array)
-  array.map {|planet|  planet.capitalize +"!"}
+  array.map {|planet|  "#{planet.capitalize}!"}
   
 end
 
