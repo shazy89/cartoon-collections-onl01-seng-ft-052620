@@ -20,3 +20,4 @@ def find_the_cheese(array)
   if array.each {|x| x.include?("ch") }
   return is_nil.x
 end
+end
