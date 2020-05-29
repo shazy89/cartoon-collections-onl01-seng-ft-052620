@@ -16,6 +16,6 @@ end
 
 def find_the_cheese(array)
   is_nil = nil
-
+result = array.find {|cheese| cheese_types.include?(cheese) }
 result.nil? ? nil : result
 end
